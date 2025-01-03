@@ -17,6 +17,11 @@ NAVIDROME_API_URL = os.getenv("NAVIDROME_API_URL")  # Navidrome API 地址
 NAVIDROME_API_USERNAME = os.getenv("NAVIDROME_API_USERNAME")  # Navidrome API 用户名
 NAVIDROME_API_PASSWORD = os.getenv("NAVIDROME_API_PASSWORD")  # Navidrome API 密码
 
+# --- Audiobookshelf  配置 ---
+Audiobookshelf_API_URL = os.getenv("Audiobookshelf_API_URL")  # Audiobookshelf  API 地址
+Audiobookshelf_API_USERNAME = os.getenv("Audiobookshelf _USERNAME")  # Audiobookshelf  API 用户名
+Audiobookshelf_API_PASSWORD = os.getenv("Audiobookshelf _API_PASSWORD")  # Audiobookshelf  API 密码
+
 # --- Emby 配置 ---
 EMBY_API_URL = os.getenv("EMBY_API_URL")  # Emby API 地址
 EMBY_API_KEY = os.getenv("EMBY_API_KEY")  # Emby API 密钥
